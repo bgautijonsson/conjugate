@@ -1,0 +1,32 @@
+.thumbnail-img {
+  float: right;
+  width: 100px; /* Adjust based on your preference */
+  height: auto;
+  border-radius: 0 0 0 5px; /* Rounded bottom left corner */
+}
+
+.article {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  transition: transform 0.3s; /* Adjust the transition as needed */
+
+  h2 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin: 0; /* Adjust the margin as needed */
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+}
+
+
+.article:hover {
+  scale: 1.05; /* Adjust the scale as needed */
+  transition: 'ease-in-out'; /* Adjust the transition as needed */
+}  
+
+
+

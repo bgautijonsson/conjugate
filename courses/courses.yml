@@ -12,7 +12,7 @@
       description: "This course is designed to help you create beautiful, informative, and effective visualizations, making you proficient in one of the cornerstone packages of the tidyverse."
     - title: gt
       thumbnail: https://gt.rstudio.com/reference/figures/logo.svg
-      href: courses/duckdb/index.qmd
+      href: courses/gt/index.qmd
       description: "This course will teach you to make great tables with the {gt} package, making you proficient in one of the best packages for creating tables in R." 
 - category: Statistics
   description: |

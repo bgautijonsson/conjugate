@@ -2,6 +2,7 @@ project:
   type: website
   preview:
     port: 3000
+  output-dir: docs
 
 website:
   title: "conjugate.dev"
