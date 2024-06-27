@@ -8,11 +8,11 @@
       description: "This course is designed to help you efficiently clean, reshape, and analyze your data, making you proficient in one of the cornerstone packages of the tidyverse."
     - title: ggplot2
       thumbnail: https://ggplot2.tidyverse.org/logo.png
-      href: courses/ggplot2/index.qmd
+      href: "#O"
       description: "This course is designed to help you create beautiful, informative, and effective visualizations, making you proficient in one of the cornerstone packages of the tidyverse."
     - title: gt
       thumbnail: https://gt.rstudio.com/reference/figures/logo.svg
-      href: courses/gt/index.qmd
+      href: "#O"
       description: "This course will teach you to make great tables with the {gt} package, making you proficient in one of the best packages for creating tables in R." 
 - category: Statistics
   description: |
@@ -20,5 +20,13 @@
   tiles:
     - title: Linear Models
       thumbnail: https://www.scribbr.com/wp-content/uploads/2020/02/simple-linear-regression-in-r-graph-example.png
-      href: courses/linear-models/index.qmd
+      href: "#O"
       description: "This course is designed to help you understand and fit linear models to your data, making you proficient in the lm package."
+    - title: Spatial Statistics
+      thumbnail: https://r-spatial.github.io/sf/logo.png
+      href: "#O"
+      description: "This course is designed to help you understand and fit spatial models to your data, making you proficient in the sf and sp packages."
+    - title: Bayesian Statistics
+      thumbnail: https://hudsonthames.org/wp-content/uploads/2020/10/bayesian-2048x685.png
+      href: "#O"
+      description: "This course is designed to help you understand and fit Bayesian models to your data, making you proficient in using the brms package and Stan language."
