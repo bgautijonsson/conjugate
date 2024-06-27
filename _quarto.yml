@@ -12,7 +12,7 @@ website:
     logo: static/img/conjugate.png
     right:
       - icon: github
-        href: github.com
+        href: github.com/bgautijonsson/conjugate
   sidebar:
     - id: id-dplyr
       title: dplyr

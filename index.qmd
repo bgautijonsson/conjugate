@@ -7,5 +7,13 @@ listing:
 
 
 
+
+![](static/img/conjugate_anim.gif){.column-screen-inset}
+
+Unlock the power of data with our comprehensive and interactive courses designed to cater to all skill levels. Whether you are a beginner looking to understand the basics or an advanced learner aiming to hone your skills, we have the perfect course for you. Our platform provides a hands-on learning experience with practical examples, interactive tutorials, and real-world applications.
+
+Dive into topics like data manipulation, visualization, statistical analysis, and more. Explore our courses and start your journey towards becoming a data analysis expert today!
+
+
 ::: {#courses .column-page}
 :::
