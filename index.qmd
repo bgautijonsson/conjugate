@@ -1,0 +1,11 @@
+---
+listing: 
+    contents: courses/courses.yml
+    template: EJS/courses.ejs
+    id: courses
+---
+
+
+
+::: {#courses .column-page}
+:::

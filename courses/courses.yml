@@ -1,0 +1,24 @@
+- category: Data Analysis
+  description: |
+    Data analysis is the process of cleaning, transforming, and modeling data to discover useful information, inform conclusions, and support decision-making. This category includes courses on the tools and techniques used to analyze data.
+  tiles:
+    - title: dplyr
+      thumbnail: https://dbplyr.tidyverse.org/logo.png
+      href: courses/dplyr/index.qmd
+      description: "This course is designed to help you efficiently clean, reshape, and analyze your data, making you proficient in one of the cornerstone packages of the tidyverse."
+    - title: ggplot2
+      thumbnail: https://ggplot2.tidyverse.org/logo.png
+      href: courses/ggplot2/index.qmd
+      description: "This course is designed to help you create beautiful, informative, and effective visualizations, making you proficient in one of the cornerstone packages of the tidyverse."
+    - title: gt
+      thumbnail: https://gt.rstudio.com/reference/figures/logo.svg
+      href: courses/duckdb/index.qmd
+      description: "This course will teach you to make great tables with the {gt} package, making you proficient in one of the best packages for creating tables in R." 
+- category: Statistics
+  description: |
+    Statistics is the science of collecting, analyzing, and interpreting data. This category includes courses on the tools and techniques used to understand and draw conclusions from data.
+  tiles:
+    - title: Linear Models
+      thumbnail: https://www.scribbr.com/wp-content/uploads/2020/02/simple-linear-regression-in-r-graph-example.png
+      href: courses/linear-models/index.qmd
+      description: "This course is designed to help you understand and fit linear models to your data, making you proficient in the lm package."

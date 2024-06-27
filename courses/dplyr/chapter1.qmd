@@ -1,0 +1,15 @@
+---
+title: 1. Meet the verbs
+filters:
+    - webr
+webr:
+    - packages: ["dplyr"]
+---
+
+
+# Meet the verbs
+
+The dplyr package in R is known for its intuitive and expressive syntax, with functions that resemble verbs, making data manipulation tasks feel like constructing a natural language sentence. This design philosophy simplifies the process of transforming and analyzing data by using a consistent set of verbs such as `filter()`, `select()`, `mutate()`, `arrange()`, and `summarize()`. 
+
+Each of these functions performs a specific action, whether it's subsetting rows, choosing columns, creating new variables, sorting data, or aggregating information. This verb-oriented approach not only enhances readability and understanding but also allows users to chain multiple operations together seamlessly using the pipe operator (|>). In the Conjugate course on dplyr, you'll learn to leverage these powerful verbs to efficiently manage and manipulate your datasets, turning complex data tasks into straightforward and elegant code.
+

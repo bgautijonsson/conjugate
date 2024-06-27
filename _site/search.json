@@ -1,0 +1,94 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "conjugate.dev",
+    "section": "",
+    "text": "Data Analysis\n  \n  Data analysis is the process of cleaning, transforming, and modeling data to discover useful information, inform conclusions, and support decision-making. This category includes courses on the tools and techniques used to analyze data.\n\n  \n  \n  \n  \n    \n      \n        dplyr\n        \n        This course is designed to help you efficiently clean, reshape, and analyze your data, making you proficient in one of the cornerstone packages of the tidyverse. \n      \n    \n  \n    \n      \n        ggplot2\n        \n        This course is designed to help you create beautiful, informative, and effective visualizations, making you proficient in one of the cornerstone packages of the tidyverse. \n      \n    \n  \n    \n      \n        gt\n        \n        This course will teach you to make great tables with the {gt} package, making you proficient in one of the best packages for creating tables in R. \n      \n    \n  \n  \n  \n  \n  \n\n  Statistics\n  \n  Statistics is the science of collecting, analyzing, and interpreting data. This category includes courses on the tools and techniques used to understand and draw conclusions from data.\n\n  \n  \n  \n  \n    \n      \n        Linear Models\n        \n        This course is designed to help you understand and fit linear models to your data, making you proficient in the lm package. \n      \n    \n  \n  \n  \n  \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "classes/dplyr.html",
+    "href": "classes/dplyr.html",
+    "title": "From Zero to Hero with Dplyr",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Classes",
+      "From Zero to Hero with Dplyr"
+    ]
+  },
+  {
+    "objectID": "index.html#explore-our-courses",
+    "href": "index.html#explore-our-courses",
+    "title": "Welcome to Conjugate",
+    "section": "Explore Our Courses",
+    "text": "Explore Our Courses\n\nData Manipulation: Learn how to clean and prepare your data for analysis.\nData Visualization: Master the art of turning data into insightful visual representations.\nStatistical Analysis: Dive deep into statistical methods that underpin high-quality data analysis.\n\n\n\n\n\n\n\nWhy Choose Conjugate?\n\n\n\n\nInteractive Learning: Engage with our content through interactive tutorials and real-world applications.\nComprehensive Curriculum: From basics to advanced topics, we cover everything you need to become a data analysis expert.\n\n\n\nDive into topics like data manipulation, visualization, statistical analysis, and more. Explore our courses and start your journey towards becoming a data analysis expert today!\n\n\n  Courses\n  \n  Learn from our interactive R courses\n\n  \n  \n  \n  \n    \n      \n        \n          Data Wrangling with dplyr\n          \n        \n      \n\n       \n        \n          \n        \n        This course is designed to help you efficiently clean, reshape, and analyze your data, making you proficient in one of the cornerstone packages of the tidyverse.\n      \n      \n      \n    \n  \n    \n      \n        \n          Visualization with ggplot2\n          \n        \n      \n\n       \n        \n          \n        \n        This course is designed to help you create beautiful, informative, and effective visualizations, making you proficient in one of the cornerstone packages of the tidyverse.\n      \n      \n      \n    \n  \n    \n      \n        \n          Larger-than-memory workflows with duckdb\n          \n        \n      \n\n       \n        \n          \n        \n        This course is designed to help you work with large datasets that don't fit in memory, making you proficient in the duckdb package.\n      \n      \n      \n    \n  \n  \n  \n  \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#why-choose-conjugate",
+    "href": "index.html#why-choose-conjugate",
+    "title": "Conjugate",
+    "section": "",
+    "text": "Interactive Learning: Engage with our content through interactive tutorials and real-world applications.\nComprehensive Curriculum: From basics to advanced topics, we cover everything you need to become a data analysis expert.\n\nDive into topics like data manipulation, visualization, statistical analysis, and more. Explore our courses and start your journey towards becoming a data analysis expert today!"
+  },
+  {
+    "objectID": "courses/dplyr/index.html",
+    "href": "courses/dplyr/index.html",
+    "title": "The {dplyr} package",
+    "section": "",
+    "text": "Welcome to the Conjugate course on {dplyr}, the powerful and popular R package for data manipulation. This course is designed to take you from a beginner to an advanced user, helping you master the essential data wrangling techniques that dplyr offers. Our course is structured into four engaging chapters, each building upon the knowledge gained in the previous one.",
+    "crumbs": [
+      "The `{dplyr}` package"
+    ]
+  },
+  {
+    "objectID": "courses/dplyr/chapter1.html",
+    "href": "courses/dplyr/chapter1.html",
+    "title": "1. Meet the verbs",
+    "section": "",
+    "text": "Meet the verbs\nThe dplyr package in R is known for its intuitive and expressive syntax, with functions that resemble verbs, making data manipulation tasks feel like constructing a natural language sentence. This design philosophy simplifies the process of transforming and analyzing data by using a consistent set of verbs such as filter(), select(), mutate(), arrange(), and summarize().\nEach of these functions performs a specific action, whether it’s subsetting rows, choosing columns, creating new variables, sorting data, or aggregating information. This verb-oriented approach not only enhances readability and understanding but also allows users to chain multiple operations together seamlessly using the pipe operator (|&gt;). In the Conjugate course on dplyr, you’ll learn to leverage these powerful verbs to efficiently manage and manipulate your datasets, turning complex data tasks into straightforward and elegant code.",
+    "crumbs": [
+      "1. Meet the verbs"
+    ]
+  },
+  {
+    "objectID": "courses/dplyr/index.html#introduction-to-dplyr",
+    "href": "courses/dplyr/index.html#introduction-to-dplyr",
+    "title": "The {dplyr} package",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\nIn this opening chapter, you’ll get an overview of dplyr and its place within the tidyverse ecosystem. We’ll discuss the core principles behind dplyr’s design, including its focus on data frames (tibbles) and the use of verbs that make data manipulation intuitive and efficient. By the end of this chapter, you’ll have a solid understanding of what dplyr is and why it’s a valuable tool for data analysis.\n\n\n\n\n\n\nTip\n\n\n\nYou will encounter interactive code cells like the one below here.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "The `{dplyr}` package"
+    ]
+  },
+  {
+    "objectID": "courses/dplyr/index.html#list-columns-and-advanced-tibble-operations",
+    "href": "courses/dplyr/index.html#list-columns-and-advanced-tibble-operations",
+    "title": "The {dplyr} package",
+    "section": "List Columns and Advanced Tibble Operations",
+    "text": "List Columns and Advanced Tibble Operations\nMoving beyond the basics, this chapter explores the versatility of tibbles, dplyr’s data frame structure. You’ll learn about list columns and other advanced features that allow for more complex and flexible data manipulations. We’ll cover techniques for storing and managing nested data, working with grouped data, and performing sophisticated transformations that go beyond traditional data frames.",
+    "crumbs": [
+      "The `{dplyr}` package"
+    ]
+  },
+  {
+    "objectID": "courses/dplyr/index.html#using-dbplyr-for-big-data",
+    "href": "courses/dplyr/index.html#using-dbplyr-for-big-data",
+    "title": "The {dplyr} package",
+    "section": "Using dbplyr for Big Data",
+    "text": "Using dbplyr for Big Data\nIn the final chapter, we expand the capabilities of dplyr by introducing dbplyr, which allows you to interface seamlessly with various database backends. You’ll learn how to use dplyr’s syntax to manipulate and query data stored in databases without having to write SQL code. This chapter will cover setting up database connections, performing efficient operations on large datasets, and integrating database queries into your data analysis workflow. By the end of this course, you’ll be equipped with the knowledge and skills to manipulate and analyze data efficiently using dplyr and dbplyr. You’ll be able to handle complex data tasks with ease, making your data analysis process more streamlined and effective. Let’s dive in and start exploring the powerful world of dplyr!",
+    "crumbs": [
+      "The `{dplyr}` package"
+    ]
+  },
+  {
+    "objectID": "courses/dplyr/index.html#introducing-the-verbs",
+    "href": "courses/dplyr/index.html#introducing-the-verbs",
+    "title": "The {dplyr} package",
+    "section": "Introducing the Verbs",
+    "text": "Introducing the Verbs\nThis chapter dives into the core functionality of dplyr by introducing its key verbs: filter(), select(), mutate(), arrange(), group_by()and summarize(). You’ll learn how to apply these functions to perform a wide range of data manipulation tasks. Through practical examples and interactive exercises, you’ll become proficient in subsetting rows, selecting columns, creating new variables, sorting data, and aggregating information.",
+    "crumbs": [
+      "The `{dplyr}` package"
+    ]
+  }
+]

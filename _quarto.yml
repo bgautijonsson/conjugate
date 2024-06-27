@@ -1,0 +1,30 @@
+project:
+  type: website
+  preview:
+    port: 3000
+
+website:
+  title: "conjugate.dev"
+  search: false
+  navbar:
+    title: "Conjugate"
+    logo: static/img/conjugate.png
+    right:
+      - icon: github
+        href: github.com
+  sidebar:
+    - id: id-dplyr
+      title: dplyr
+      contents: 
+        - courses/dplyr/index.qmd
+        - courses/dplyr/chapter1.qmd
+        - courses/dplyr/chapter2.qmd
+        - courses/dplyr/chapter3.qmd
+
+format:
+  html:
+    theme: [flatly, theme.scss]
+    css: styles.css
+
+
+engine: knitr

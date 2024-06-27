@@ -1,0 +1,56 @@
+---
+title: The `{dplyr}` package
+subtitle: Or how I learned to stop worrying and love the verbs
+image: https://nbdev.fast.ai/images/card.png
+sidebar: id-dplyr
+filters:
+    - webr
+---
+
+```{webr-r}
+#| context: setup
+library(dplyr)
+```
+
+
+Welcome to the Conjugate course on `{dplyr}`, the powerful and popular R package for data manipulation. This course is designed to take you from a beginner to an advanced user, helping you master the essential data wrangling techniques that dplyr offers. Our course is structured into four engaging chapters, each building upon the knowledge gained in the previous one.
+
+# Course Overview
+
+## Introduction to dplyr
+
+In this opening chapter, you'll get an overview of dplyr and its place within the tidyverse ecosystem. We'll discuss the core principles behind dplyr's design, including its focus on data frames (tibbles) and the use of verbs that make data manipulation intuitive and efficient. By the end of this chapter, you'll have a solid understanding of what dplyr is and why it's a valuable tool for data analysis.
+
+
+::: {.callout-tip}
+You will encounter interactive code cells like the one below here.
+
+```{webr-r}
+#| context: interactive
+mtcars |> 
+    select(mpg, hp, gear) |> 
+    filter(mpg < 20) |> 
+    group_by(gear) |> 
+    summarise(
+        mean_mpg = mean(mpg),
+        mean_hp = mean(hp)
+    )
+```
+:::
+
+## Introducing the Verbs
+
+This chapter dives into the core functionality of dplyr by introducing its key verbs: `filter()`, `select()`, `mutate()`, `arrange()`, `group_by()`and `summarize()`. You'll learn how to apply these functions to perform a wide range of data manipulation tasks. Through practical examples and interactive exercises, you'll become proficient in subsetting rows, selecting columns, creating new variables, sorting data, and aggregating information.
+
+
+
+
+## List Columns and Advanced Tibble Operations
+
+Moving beyond the basics, this chapter explores the versatility of tibbles, dplyr's data frame structure. You'll learn about list columns and other advanced features that allow for more complex and flexible data manipulations. We’ll cover techniques for storing and managing nested data, working with grouped data, and performing sophisticated transformations that go beyond traditional data frames.
+
+
+## Using dbplyr for Big Data
+
+In the final chapter, we expand the capabilities of dplyr by introducing dbplyr, which allows you to interface seamlessly with various database backends. You'll learn how to use dplyr's syntax to manipulate and query data stored in databases without having to write SQL code. This chapter will cover setting up database connections, performing efficient operations on large datasets, and integrating database queries into your data analysis workflow.
+By the end of this course, you'll be equipped with the knowledge and skills to manipulate and analyze data efficiently using dplyr and dbplyr. You'll be able to handle complex data tasks with ease, making your data analysis process more streamlined and effective. Let's dive in and start exploring the powerful world of dplyr!
