@@ -17,15 +17,13 @@ website:
     - id: id-dplyr
       title: dplyr
       contents: 
-        - courses/dplyr/index.qmd
-        - courses/dplyr/chapter1.qmd
-        - courses/dplyr/chapter2.qmd
-        - courses/dplyr/chapter3.qmd
+        - ./courses/dplyr/index.qmd
+        - ./courses/dplyr/chapter1/index.qmd
+        - ./courses/dplyr/chapter2/index.qmd
+        - ./courses/dplyr/chapter3/index.qmd
 
 format:
-  html:
+  live-html:
     theme: [flatly, theme.scss]
     css: styles.css
-
-
 engine: knitr

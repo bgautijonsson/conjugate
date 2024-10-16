@@ -1,0 +1,15 @@
+```{=html}
+
+<div class="grid gap-8 lg:grid-cols-3 mb-10">
+<% for (const item of items) { %>
+    <div class="article border-1 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2">
+        <a href="<%- item.href %>">
+        <h2 class="mb-2 text-2xl font-bold tracking-tight"><%= item.name %></h2>
+        </a>
+    </div>
+<% } %>
+  
+</div>
+
+
+```

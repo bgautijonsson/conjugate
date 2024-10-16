@@ -1,0 +1,9 @@
+
+  - name: The `{dplyr}` package
+    href: courses/dplyr/index.qmd
+  - name: Meet the verbs
+    href: courses/dplyr/chapter1/index.qmd
+  - name: List columns
+    href: courses/dplyr/chapter2/index.qmd
+  - name: Baby got back(end)
+    href: courses/dplyr/chapter3/index.qmd

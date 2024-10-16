@@ -1,9 +1,5 @@
 ---
 title: 1. Meet the verbs
-filters:
-    - webr
-webr:
-    - packages: ["dplyr"]
 ---
 
 
